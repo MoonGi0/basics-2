@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<script>
+  let a = +prompt('Введите первое число','');
+  let b = +prompt('Введите второе число','');
+  let action = prompt('Введите add для сложения, multi для умножения или minus для вычетания','');
+  let answer;
+  function calc(action,a,b){
+
+  switch(action){
+    case 'add':
+    return answer = (a+b);
+    break;
+
+    case 'multi':
+    return answer = (a*b) ;
+    break;
+     
+    case 'minus':
+    return answer = (a-b) ;
+    break;
+}
+}
+calc(action,a,b);
+alert(answer);
+</script>
+</body>  
+</html>
